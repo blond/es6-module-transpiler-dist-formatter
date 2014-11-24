@@ -1,4 +1,4 @@
-var recast = require('recast'),
+var recast = require('es6-module-transpiler/node_modules/recast'),
     types = recast.types,
     b = types.builders,
     utils = require('es6-module-transpiler/lib/utils'),
