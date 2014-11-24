@@ -1,6 +1,6 @@
 {
   "name": "es6-module-transpiler-dist-formatter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ES6 Module Transpiler Extension to Output Dist Bundle Format.",
   "keywords": [
     "es6",
