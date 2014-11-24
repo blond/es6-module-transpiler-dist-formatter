@@ -1,0 +1,52 @@
+{
+  "name": "es6-module-transpiler-dist-formatter",
+  "version": "0.0.0",
+  "description": "ES6 Module Transpiler Extension to Output Dist Bundle Format.",
+  "keywords": [
+    "es6",
+    "module",
+    "transpiler",
+    "module-formatter",
+    "dist",
+    "globals",
+    "node",
+    "ym"
+  ],
+  "author": "Andrew Abramov <andrewblond@yandex.com>",
+  "repository": "git://github.com/andrewblond/es6-module-transpiler-dist-formatter",
+  "homepage": "https://github.com/andrewblond/es6-module-transpiler-dist-formatter",
+  "bugs": "https://github.com/andrewblond/es6-module-transpiler-dist-formatter/issues",
+  "contributors": [
+    {
+      "name": "Andrew Abramov",
+      "email": "andrewblond@yandex.com"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint && npm run cover",
+    "lint": "jshint . && jscs -c .jscs.js .",
+    "func-test": "mocha ./test/*.test.js",
+    "cover": "istanbul cover _mocha -- ./test/*.test.js"
+  },
+  "dependencies": {
+    "es6-module-transpiler": "0.9.5",
+    "recast": "0.9.5"
+  },
+  "devDependencies": {
+    "istanbul": "0.3.2",
+    "jscs": "1.7.3",
+    "jshint": "2.5.10",
+    "mocha": "2.0.1",
+    "mock-fs": "2.3.2",
+    "must": "0.12.0",
+    "ym": "0.1.0"
+  }
+}
